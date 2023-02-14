@@ -5,6 +5,7 @@ ToDo Api built using Flask and containerized using Docker.
 Build the Docker image manually by cloning the Git repo.
 ```
 $ git clone https://github.com/ShantanuJalkote/todo-api-flask.git
+$ cd todo-api-flask
 $ docker build -t todoapi .
 ```
 ### Run the container
