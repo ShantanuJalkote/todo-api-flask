@@ -1,6 +1,11 @@
 # todoapi-flask-docker
 ToDo Api built using Flask and containerized using Docker.
 
+### To Run the flask Api
+```
+flask run
+```
+
 ### Build application
 Build the Docker image manually by cloning the Git repo.
 ```
