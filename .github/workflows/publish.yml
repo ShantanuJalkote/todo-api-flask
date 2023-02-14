@@ -13,6 +13,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the todo_api Docker image
         run: |
-          docker build . --tag ghcr.io/ShantanuJalkote/todo-api-flask-docker:latest
+          docker build . --tag ghcr.io/todo-api-flask/todo-api-flask-docker:latest
           docker run ghcr.io/ShantanuJalkote/todo-api-flask-docker:latest
           docker push ghcr.io/ShantanuJalkote/todo-api-flask-docker:latest
