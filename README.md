@@ -3,7 +3,8 @@ ToDo Api built using Flask and containerized using Docker.
 
 ### To Run the flask Api
 ```
-flask run
+$ git clone https://github.com/ShantanuJalkote/todo-api-flask.git
+$ flask run
 ```
 
 ### Build application
